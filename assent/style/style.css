@@ -1,0 +1,329 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(10, 127, 237);
+
+}
+/*nav para las 3 paginas
+logo
+etiqueta "a"*/
+header :hover{
+    color: aquamarine;
+
+}
+header{
+    background-color: rgb(77, 74, 74);
+}
+
+.nav-contenedor nav{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    padding: 10px 20px; 
+
+    
+   
+    
+}
+.logo{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 100px;
+    order: 1;
+    background-color: rgb(77, 74, 74);
+}
+.cambiarColor{
+    background-color: rgb(77, 74, 74);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(77, 74, 74);
+    }
+
+/*main contenedor 
+°index.html*/
+.main-contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+/*banner*/
+.clase-img1{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+}
+
+/*contenedor de la segunda img
+clase-img2: segunda imagen de la pagina
+con .custom-h3*/
+.pancakes-cont{
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+    gap: 50px;
+    
+}
+.clase-img2{
+    height: 30vh;
+    width: 30%;
+    border: 2px solid rgb(10, 10, 10);
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 10px;
+}
+.custom-h3{
+    width: 30% ;
+    align-self: center;
+}
+
+footer h4{
+    
+    height: 50px;
+    text-align: center;
+    background-color: rgb(77, 74, 74);
+}
+/*termina pagina principal*/
+
+
+
+/*segunda pagina 
+    °about*/
+
+#centrar-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+
+.contenedor-about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.item{
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-end
+    
+}
+
+.clase-img3{
+    display: flex;
+    height: 30vh;
+    width: 20%;
+    border: 2px solid rgb(10, 10, 10);
+    object-fit: cover;
+    border-radius: 10px;
+}
+.custom-p{
+    display: flex;
+    width: 50%;
+    height: 100px;
+    margin-left: 10px;
+    align-items: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+#margin-top{
+    margin-top: 10px;
+    
+}
+/* padding general*/
+#edit_padding{
+    padding: 10px;
+}
+/* termina segunda pagina : about.html*/
+
+/* Tercera pagina
+    °Contact*/
+.img-contact{
+    width: 100vh;
+    height: 50vh;
+    object-fit: cover;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+}
+
+.p-contact{
+    width: 100vh;
+    font-size: 20px;
+}
+
+.phone-cont{
+    display: flex;
+    height: 8vh;
+    gap: 50px;
+    width: 100vh;
+    justify-content: center;
+}
+
+.footer-contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.email{
+    font-size: 25px;
+}
+/* Termina tercera pagina
+    °Contact*/
+
+    /* cuarta pagina
+    °Inforamation*/
+th,tr,td{
+    border: 3px solid rgb(3, 3, 3);
+    padding: 20px;
+    color: black;
+    background-color: rgb(101, 101, 211);
+    
+}
+td{
+    font-size: 18px;
+}
+/* Carpeta padre*/
+.layout{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+.table-cont{
+    text-align: center;
+    border-collapse: collapse;
+    color: rgb(9, 9, 9);
+    width: 700px;
+    height: 500px;
+}
+
+.table-edit{
+    font-size: 23px;
+    padding: 20px;
+    
+}
+
+.edit-tamaño{
+    padding: 45px
+}
+/* Termina cuarta pagina
+    °Information*/
+
+
+
+
+/* Quinta pagina
+    °Tips*/
+
+.contenedor-Tips{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+.contenedor-tips-2{
+    display: flex;
+    width: 90%;
+    justify-content: center; 
+    margin: 20px;
+    border: 2px solid black;
+   
+}
+.img-tips{
+    margin: 20px;
+    width: 20%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ul-edit{
+    padding: 20px;
+    margin-left: 50px;
+    align-content: center;
+    font-size: 18px;
+}
+/* se edita por que no se puede cuadrar bien las imagenes*/
+.edit-tips{
+    margin-right: 45px;
+}
+
+/* puntiacion estrellas*/
+.star-rating{
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* Margin para tips
+    °Tips*/
+.margin-bottom{
+    margin-bottom: 50px;
+}
+/* Termina Quinta pagina
+    °Tips*/
+
+
+    /* Margin General*/
+.margin-general{
+    margin: 20px;
+}
+
+/*Hover*/
+.estrella1:hover{
+    color: rgb(247, 207, 207);
+}
+.estrella2:hover{
+    color: rgb(247, 207, 207);
+}
+.estrella3:hover{
+    color: rgb(247, 207, 207);
+}
+.estrella4:hover{
+    color: rgb(247, 207, 207);
+}
+.estrella5:hover{
+    color: rgb(247, 207, 207);
+}
+
+tr,td:hover{
+    color: aliceblue;
+}
+th:hover{
+    color: rgb(64, 246, 137);
+}
+/*Hover*/
